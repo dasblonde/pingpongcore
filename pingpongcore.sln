@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A4D86772-23E0-471D-A264-ED431C18C5CA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F818481F-EFBC-4EDE-9809-0E29DA56E66E}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "pingpongcore", "src\pingpongcore\pingpongcore.xproj", "{3B8EE3F2-0D55-4B02-B5B4-8B9CD1B3D8EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B8EE3F2-0D55-4B02-B5B4-8B9CD1B3D8EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B8EE3F2-0D55-4B02-B5B4-8B9CD1B3D8EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B8EE3F2-0D55-4B02-B5B4-8B9CD1B3D8EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B8EE3F2-0D55-4B02-B5B4-8B9CD1B3D8EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3B8EE3F2-0D55-4B02-B5B4-8B9CD1B3D8EC} = {A4D86772-23E0-471D-A264-ED431C18C5CA}
+	EndGlobalSection
+EndGlobal
