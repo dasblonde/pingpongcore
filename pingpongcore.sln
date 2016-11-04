@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F818481F-EFBC-4EDE-9809-0E29DA56E66E}"
 	ProjectSection(SolutionItems) = preProject
 		global.json = global.json
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "pingpongcore", "src\pingpongcore\pingpongcore.xproj", "{3B8EE3F2-0D55-4B02-B5B4-8B9CD1B3D8EC}"
