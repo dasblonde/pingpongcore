@@ -7,6 +7,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A4D86772-23E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F818481F-EFBC-4EDE-9809-0E29DA56E66E}"
 	ProjectSection(SolutionItems) = preProject
+		Dockerfile.nano = Dockerfile.nano
 		global.json = global.json
 		README.md = README.md
 	EndProjectSection
