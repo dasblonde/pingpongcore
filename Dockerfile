@@ -1,4 +1,4 @@
-FROM microsoft/dotnet:sdk
+FROM microsoft/dotnet:1.0-sdk-projectjson
 
 RUN mkdir app
 WORKDIR app
