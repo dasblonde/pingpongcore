@@ -1,5 +1,5 @@
 FROM microsoft/dotnet:1.0-sdk-projectjson
-
+  
 RUN mkdir app
 WORKDIR app
 
@@ -7,7 +7,7 @@ WORKDIR app
 COPY src/pingpongcore/project.json .
 RUN dotnet restore
 
-# copy everything else and build it
+# copy everything else and build
 COPY src/pingpongcore/ .
 RUN dotnet publish -c Release -o out
 
